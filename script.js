@@ -51,11 +51,9 @@ q3a4.addEventListener("click", pan);
 function baguette() {
   baguettecount = baguettecount + 1; //Track # of baguette answers
   questioncount = questioncount + 1; //Track # quiz answers
-  alert("Response Confirmed");
   if (questioncount >= 3) {
     updateresult();
   }
- 
 }
 
 function focaccia() {
@@ -64,7 +62,6 @@ function focaccia() {
   if (questioncount >= 3) {
     updateresult();
   }
-  alert("Response Confirmed");
 }
 
 function pan() {
@@ -73,7 +70,6 @@ function pan() {
   if (questioncount >= 3) {
     updateresult();
   }
-  alert("Response Confirmed");
 }
 
 function sourdough() {
@@ -82,23 +78,19 @@ function sourdough() {
   if (questioncount >= 3) {
     updateresult();
   }
-  alert("Response Confirmed");
 }
 
-function update result (){
-if (baguettecount >= 2){
-result.innerHTML = "You are a... Baguette!"
- }
- else if(focacciacount>=2){
-result.innerHTML = "You are... Focaccia!"
- }
- else if(sourdoughcount>=2){
-result.innerHTML = "You are... Sourdough!"
- }
- else if (pancount>= 2){
- result.innerHTML = "You are... Pan de Sal!"
- }
- else{
-  result.innerHTML = "You are... The (B)avatar! Master of all four (b)elements"
- }
+function updateresult() {
+  if (baguettecount >= 2) {
+    result.innerHTML = "You are a... Baguette!";
+  } else if (focacciacount >= 2) {
+    result.innerHTML = "You are... Focaccia!";
+  } else if (sourdoughcount >= 2) {
+    result.innerHTML = "You are... Sourdough!";
+  } else if (pancount >= 2) {
+    result.innerHTML = "You are... Pan de Sal!";
+  } else {
+    result.innerHTML =
+      "You are... The (B)avatar! Master of all four (b)elements";
+  }
 }
