@@ -9,25 +9,40 @@ body {
 
 h1 {
   font-style: italic;
-  color: black;
+  color: purple;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
   margin-top: 2em;
-  color: black;
+  background-color: purple;
+  color: lavender;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .question {
   display: flex;
   margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
 }
 
 .answer-choice img {
   height: 10em;
   width: 12em; 
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  
 }
 
 .answer-choice {
 font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+color: purple;
 font-style: bold;
 }

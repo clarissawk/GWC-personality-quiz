@@ -91,6 +91,6 @@ function updateresult() {
     result.innerHTML = "You are... Pan de Sal!";
   } else {
     result.innerHTML =
-      "You are... The (B)avatar! Master of all four (b)elements";
+      "You are... The (B)avatar! Master of all four (b)elements, your bread powers are to powerful to be defined by this quiz.";
   }
 }
