@@ -1,24 +1,33 @@
 /* CSS files add styling rules to your content */
 
+
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: lavender;
 }
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: black;
 }
 
 h2 {
-  margin-top: 2em; 
+  margin-top: 2em;
+  color: black;
 }
 
 .question {
   display: flex;
   margin-top: 2em;
 }
-  
+
 .answer-choice img {
   height: 10em;
+  width: 12em; 
+}
+
+.answer-choice {
+font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+font-style: bold;
 }
